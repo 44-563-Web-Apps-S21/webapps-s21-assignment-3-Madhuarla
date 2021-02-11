@@ -4,7 +4,7 @@
 <title>My Page</title>
 </head>
 <body>
-
+<a href="bonus.html">Bonus Section</a>
 <h1> MADHU BABU ARLA</h1>
 <h3>Gaming</h3>
 <p>
@@ -100,6 +100,39 @@
     </tr>
 </table>
 <hr>
+<h3>Just Code It!!!</h3>
+<blockquote cite="https://en.wikipedia.org/wiki/M_Sharp">
+    <p>
+        M# (pronounced em sharp) is a code generation tool and a domain-specific language that can be used to create websites and web applications. It can translate entities and page definitions to ASP.NET Web Forms and MVC and C# code which in turn form the user interface and business logic layer of the application. 
+        Its main goals are to reduce time of development, increase code quality, and reduce human errors.
+    </p>
+    <a href="https://en.wikipedia.org/wiki/M_Sharp">Source Link</a>
+    <br>
+    <br>
+    <b><i>
+        Code Example:
+    </i></b>
+    <pre>
+        using MSharp;
+
+        namespace Model
+        {
+            public class Contact : EntityType
+            {
+                public Contact()
+                {
+                    Associate<Category>("Category").Mandatory();
+                    String("First name").Mandatory();
+                    String("Last name").Mandatory();
+                    String("Tel").Mandatory();
+                    String("Email").Mandatory().Accepts(TextPattern.EmailAddress);
+                }
+            }
+        }
+
+<a href="http://www.msharp.co.uk/#/Tutorials/1/README"> SourceCode Link </a>
+    </pre>
+</blockquote>
 
 
 </body>
